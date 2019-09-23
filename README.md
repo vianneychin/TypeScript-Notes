@@ -1,4 +1,6 @@
-# TypeScript
+# ⌨️
+
+# TypeScript Notes
 
 > To run a TypeScript file, simply run _parcel index.html._
 
@@ -6,7 +8,7 @@
     // the index.ts file. Parcel-bundler will turn the index.ts
     // --> an index.js file.
 
-> Install @type declaration files for all node_modules. Sometimes @type declaration files are included. _DefinitelyTyped_ from **npm** are JavaScript @type definition files.
+> Install @type declaration files for all node*modules. Sometimes @type declaration files are included. \_DefinitelyTyped* from **npm** are JavaScript @type definition files.
 
 CMD + _click — The imported variable to see the @type definitions. You can also click on types in the type definition file to navigate throughout._
 
