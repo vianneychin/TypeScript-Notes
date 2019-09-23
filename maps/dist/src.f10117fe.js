@@ -137,6 +137,16 @@ function () {
     });
   }
 
+  CustomMap.prototype.addMarker = function (mappable) {
+    new google.maps.Marker({
+      map: this.googleMap,
+      position: {
+        lat: mappable.location.lat,
+        lng: mappable.location.lng
+      }
+    });
+  };
+
   return CustomMap;
 }();
 
@@ -146,8 +156,7 @@ exports.CustomMap = CustomMap;
 
 Object.defineProperty(exports, "__esModule", {
   value: true
-}); // import { User } from './User'
-// import { Company } from './Company'
+});
 
 var CustomMap_1 = require("./CustomMap");
 
