@@ -2,10 +2,14 @@
 
 ### 🌵 Enviroment Setup
 
+> Terminal
+
     npm install -g parcel-bundler
     npm install -g typescript
     npm install -g ts-node
     parcel index.html
+
+> HTML
 
     <head>
     	<script src="./src/index.ts"/>
@@ -13,11 +17,7 @@
 
 ### 🗒 @type/declaration Notes
 
-> @type/declaration files are sometimes included with the NPM modules. If not, manually install them.
-
-> DefinitelyTyped files from NPM are labeled as JavaScript @type/declaration files.
-
-> CMD + 🖱 the imported variable to see the @type/definition file in your Visual Studio Code editor.
+> • @type/declaration files are sometimes included with the NPM modules. If not, manually install them. • DefinitelyTyped files from NPM are labeled as JavaScript @type/declaration files. • CMD + 🖱 the imported variable to see the @type/definition file in your Visual Studio Code editor.
 
 ### 📓 TypeScript Notes
 
