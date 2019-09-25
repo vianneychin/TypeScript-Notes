@@ -16,4 +16,5 @@ class Sorter {
     }
 }
 exports.Sorter = Sorter;
+;
 ``;
