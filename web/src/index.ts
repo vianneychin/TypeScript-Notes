@@ -1,12 +1,9 @@
 import { User } from './models/User'
-import { updateRestTypeNode } from 'typescript'
 
-const user = new User({ name: 'new record', age: 0 })
+const user = new User({ id: 1, name: 'newer name', age: 0 })
 
-console.log(user.get('name'))
-
-user.on('change', () => {
-  console.log('User was changed.')
+user.on('save', () => {
+  console.log(user)
 })
 
-user.trigger('change')
+user.save()
